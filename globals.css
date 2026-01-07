@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media print {
+  body {
+    background: white !important;
+    color: black !important;
+  }
+
+  a,
+  button {
+    display: none !important;
+  }
+
+  main {
+    box-shadow: none !important;
+  }
+}
+
+/* Dark Mode */
+.dark {
+  --bg: #020617;
+}
